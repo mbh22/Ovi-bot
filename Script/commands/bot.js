@@ -32,8 +32,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("type /help", threadID);
    };
   
-   if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
-     return api.sendMessage("simsimi কমান্ড এড় নাই টাইপ করুন baby", threadID);
+   if ((event.body.toLowerCase() == "hasan") || (event.body.toLowerCase() == "simsimi")) {
+     return api.sendMessage("hasan হলো মেয়ে পাগলা 12 ভাতারি লুচ্চা ওরে গ্রুপে পাবি না। দেখ কোন মেয়ের চিপায়😵‍💫😩😘", threadID);
    };
   
    if ((event.body.toLowerCase() == "ওই কিরে") || (event.body.toLowerCase() == "oi keray") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
@@ -53,7 +53,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "rabby") || (event.body.toLowerCase() == "bal")) {
-     return api.sendMessage("~ তুই রাব্বি লুচ্ছা কে ডাকিস কেন?? 🤖", threadID);
+     return api.sendMessage("~ তুই রাব্বি লুচ্ছা কে ডাকিস কেন উনি মেয়ে নিয়ে চিপইয়া ধরা পড়ছে?? 🤖", threadID);
    };
 
   if ((event.body.toLowerCase() == "ovi") || (event.body.toLowerCase() == "Ullash bai") || (event.body.toLowerCase() == "@Ullash ッ") || (event.body.toLowerCase() == "উল্লাস")) {
